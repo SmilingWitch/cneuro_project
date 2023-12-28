@@ -1,0 +1,34 @@
+.card{
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    transform: skew(10deg);
+    border: 1px solid rgba(238, 130, 238,0.3);
+    background: rgba(0, 0, 0,0.3);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+.card:hover{
+ transform: scale(1);
+ border: 1px solid rgba(238, 130, 238,0.7);
+}
+.name{
+    position: relative;
+    font-size: 1.2em;
+    font-family: "PoppinsBolder";
+}
+.inst,.rol{
+    color: rgb(180, 178, 178);
+}
+.participantes{
+    position: relative;
+    width: 100%;
+    background: red;
+}
+.Bx_parterns{
+    position: relative;
+    width: 90%;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+}
