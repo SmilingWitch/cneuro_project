@@ -1,0 +1,25 @@
+.bar{
+    position: fixed;
+    z-index: 100000;
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bar ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 500px;
+}
+.bar ul li{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.bar ul li:hover{
+    color: turquoise;
+}
