@@ -1,7 +1,18 @@
 import style from  "../../public/assets/styles/Steps.module.css"
 import StepsCard from "./StepCard"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export default function Steps(){
+
+    useEffect(() => {
+        AOS.init({
+          duration:1500
+      });
+      }, []);
+
+
     return(
         <div className={style.cont}>
             <div className={style.header}>

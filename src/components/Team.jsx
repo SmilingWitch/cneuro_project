@@ -7,6 +7,7 @@ import TeamCard from "./TeamCard";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ParticipantesCard from "./ParticipantesCrad";
+import Image from "next/image"
 
 
 export default function Team(){
@@ -122,10 +123,18 @@ export default function Team(){
                 <div className={style.header}>
                   <div className={style.imagesBx}>
                     <div className={style.img1} data-aos="fade-right">
-                     <img src="/assets/images/robotichand.png" alt="" />
+                     <Image
+                        src="/assets/images/robotichand.png"
+                        layout="fill"
+                        objectFit="cover"
+                      />
                     </div>
                     <div className={style.img2} data-aos="fade-left">
-                      <img src="/assets/images/humanhand.png" alt="" />
+                      <Image
+                        src="/assets/images/humanhand.png"
+                        layout="fill"
+                        objectFit="cover"
+                      />
                     </div>
                   </div>
                     <h1 data-aos="fade-down-left">Meet our team!</h1>

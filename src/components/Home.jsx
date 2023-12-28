@@ -35,8 +35,26 @@ export default function Home(){
             <div className={style.bx}>
                 <div className={style.contBx}>
                     <div className={style.logoBx}>
-                        <img src="/assets/images/[removal.ai]_1d3a2e2a-967e-418a-9804-7c09c2e5bc75-cneuro.png" alt="" data-aos="flip-left"/>
-                        <img src="/assets/images/[removal.ai]_42c207b6-f328-4b6e-af84-d397a899a876-vlir.png" alt="" data-aos="flip-left"/>
+                        <div className={style.image}>
+                            <Image
+                            src="/assets/images/[removal.ai]_1d3a2e2a-967e-418a-9804-7c09c2e5bc75-cneuro.png"
+                            layout="fill"
+                            objectFit="cover"
+                            data-aos="flip-left"
+                          />
+
+                        </div>
+                        <div className={style.image}>
+                            <Image
+                            src="/assets/images/[removal.ai]_42c207b6-f328-4b6e-af84-d397a899a876-vlir.png"
+                            layout="fill"
+                            objectFit="cover"
+                            data-aos="flip-left"
+                          />
+
+                        </div>
+                        
+                          
                     </div>
                     <h1 data-aos="fade-down">Toward Precision On Medicine for the Prediction of Treatment response to <span>Covid-19</span> in Cuba</h1>
                     <h3 data-aos="fade-down">Improve the quality of the Cuban health system and the well-being of the population!</h3>
@@ -44,7 +62,11 @@ export default function Home(){
                 
             </div>
             <div className={style.img}>
-                <img src="/assets/images/abstract-black-futuristic-background.jpg" alt="" />
+                <Image
+                    src="/assets/images/abstract-black-futuristic-background.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                />
             </div>
             <div className={style.btn} onClick={handleClick} data-aos="zoom-in">
                  <IoIosArrowDown className={style.icon}   />
