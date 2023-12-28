@@ -23,3 +23,6 @@
 .bar ul li:hover{
     color: turquoise;
 }
+.active{
+    color: turquoise;
+}
