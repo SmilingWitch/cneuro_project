@@ -1,6 +1,8 @@
 
 import style from "../../public/assets/styles/StepCard.module.css"
 import { useRef, useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function StepsCard({number, header,content}){
 
@@ -32,18 +34,25 @@ export default function StepsCard({number, header,content}){
     };
 }, []);
 
+    useEffect(() => {
+        AOS.init({
+          duration:1500
+      });
+
+
+  }, []);
 
     return(
-        <div className={`${style.cont} container`} ref={containerRef}  >
+        <div className={`${style.cont} container`} ref={containerRef} data-aos="fade-down-right" >
             <div class={`${style.circle} circle`} ref={circleRef}></div>
             <div className={style.bx}>
                 <div className={style.number}>
                     0{number}
                 </div>
-                <div className={style.header}>
+                <div className={style.header} data-aos="fade-up">
                     {header}
                 </div>
-                <div className={style.content}>
+                <div className={style.content} data-aos="fade-up">
                     {content}
                 </div>
 
