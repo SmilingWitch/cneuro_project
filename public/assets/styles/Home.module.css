@@ -17,6 +17,7 @@
     z-index: 10;
     width: 100%;
     height: 100%;
+    
 }
 .img img{
     position: relative;
@@ -35,8 +36,9 @@
     height: 70px;
     width: 100%;
     margin-bottom: 20px;
+    display: flex;
 }
-.logoBx img{
+.logoBx .image{
     position: relative;
     width: 70px;
     height: 70px;
@@ -78,6 +80,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
 }
 .btn{
     position: absolute;
@@ -96,7 +99,41 @@
 .btn:hover{
     background: violet; 
 }
-
+@media(max-width: 1520px){
+    .header{
+        width: 100%;
+    }
+}
+@media(max-width:964px){
+    .cont h1{
+        font-size: 2em; 
+     }
+     .contBx{
+       margin: 0 auto;
+        width: 80%; 
+    }
+}
+@media(max-width:852px){
+    .img{
+        width:1766px ;
+    }
+}
+@media(max-width:660px){
+    .contBx{
+         width: 100%;
+         text-align: center;
+     }
+     .btn{
+        
+        margin-top: 70vh;
+        
+    }
+}
+@media(max-width:332px){
+    .cont h1{
+        font-size: 1.8em; 
+     }
+}
 
 
 

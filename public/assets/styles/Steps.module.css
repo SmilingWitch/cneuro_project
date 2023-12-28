@@ -22,3 +22,14 @@
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr) );
 }
+@media(max-width:662px){
+    .cont{
+        margin-top: 100px;
+    }
+   
+}
+@media(max-width:422px){
+    .cont{
+        margin-top: 300px;
+    }
+}
