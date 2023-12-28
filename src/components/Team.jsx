@@ -145,9 +145,9 @@ export default function Team(){
 
                 <div className={style.acordeonBx}>
                   <div className={style.promotores}>
-                    <h2>Flemish project team (promoters, team members)</h2>
+                    <h2 data-aos="fade-right">Flemish project team</h2>
                   </div>
-                   <div className={style.Bx}>
+                   <div className={style.Bx} >
                     {items.map(item => (
                     <TeamCard
                       key={item.id}
@@ -166,7 +166,7 @@ export default function Team(){
                     <img src="/assets/images/3d-render-network-communications-background-with-plexus-design.jpg" alt="" />
                     </div>*/}
                   <div className={style.partnersHeader}>
-                    <h2>Partner team (promoters, team members)</h2>
+                    <h2 data-aos="fade-right">Partner team</h2>
                   </div>
                   <div className={style.Bx_parterns}>
                     {participantes.map(item => (
