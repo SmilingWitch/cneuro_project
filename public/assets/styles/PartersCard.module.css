@@ -1,0 +1,31 @@
+.card{
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(29, 29, 29, 0.4);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    
+}
+.card:hover {
+    transform: scale(1.1);
+    border: 1px solid rgba(238, 130, 238,0.3);
+
+}
+.name{
+    position: relative;
+    font-size: 1.3em;
+    font-family: "PoppinsBolder";
+    
+}
+.level, .occ{
+    color: rgb(180, 178, 178);
+    padding-top: 10px;
+}
+.level span, .occ span{
+     font-family: "PoppinsBolder";
+}
