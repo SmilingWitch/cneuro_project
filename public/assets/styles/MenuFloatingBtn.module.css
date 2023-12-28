@@ -26,9 +26,7 @@
     bottom: 80px;
 
    }
-.btn:hover{
-    background: rgb(246, 99, 45);
-}
+
 .menu {
     position: fixed;
     top: 0;
@@ -71,7 +69,4 @@
    .link{
     font-family: "PoppinsBolder";
     transition: 0.3s;
-   }
-   .link:hover{
-        color: orangered;
    }
