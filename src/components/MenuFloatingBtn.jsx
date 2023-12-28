@@ -42,10 +42,10 @@ export default function MenuFloatinButton(){
           <div className={style.menu}>
             <div className={style.menuCont}>
               <ul>
-               <li><Link Link href = "/home" className={style.link}>Home</Link></li>
-               <li><Link Link href = "/about" className={style.link}>About</Link></li>
-               <li><Link Link href = "/team" className={style.link}>Our Team</Link></li>
-               <li><Link href = "/home" className={style.link}>Project</Link></li>
+               <li><Link Link href = "/home" className={style.link} onClick={() => setIsOpen(false)}>Home</Link></li>
+               <li><Link Link href = "/about" className={style.link} onClick={() => setIsOpen(false)}>About</Link></li>
+               <li><Link Link href = "/team" className={style.link} onClick={() => setIsOpen(false)}>Our Team</Link></li>
+               <li><Link href = "/home" className={style.link} onClick={() => setIsOpen(false)}>Project</Link></li>
               </ul>
             </div>
         </div>
