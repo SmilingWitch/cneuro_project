@@ -1,12 +1,13 @@
 .bar{
     position: fixed;
     z-index: 100000;
-    
+    background: rgb(18, 18, 18);
     width: 100%;
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    border-bottom: 1px solid rgb(59, 58, 58);
 }
 .bar ul{
     position: relative;
@@ -19,10 +20,38 @@
 .bar ul li{
     cursor: pointer;
     transition: 0.3s;
+    
+    display: flex;
 }
 .bar ul li:hover{
     color: turquoise;
 }
 .active{
     color: turquoise;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.ul{
+    position: absolute !important;
+    display: flex;
+    flex-direction: column;
+    background: rgb(48, 48, 48);
+    padding: 10px;
+    width: 250px !important;
+    right: 0px;
+    top: 50px;
+    border-radius: 5px;
+    text-transform: none;
+    height: 150px;
+    align-items: flex-start ;
+    justify-content: space-around;
+    cursor: auto;
+}
+.ul span{
+    cursor: pointer;
 }

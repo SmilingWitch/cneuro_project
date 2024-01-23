@@ -1,0 +1,292 @@
+.cont{
+    position: relative;
+    width: 100vw;  
+    display: flex;
+    justify-content: space-between;
+    background: rgb(18, 18, 18);
+    min-height: 100vh;
+}
+.content{
+    position: relative;
+    width: calc(100vw - 350px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh ;
+    margin: 0 auto;
+}
+.principal{
+    position: relative;
+    width: 800px;
+    /*min-height: 100vh */;
+}
+.introduction{
+    position: relative;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    margin-top: 10vh;
+}
+
+.modelImage, .modelImage1{
+    position: relative;
+    width: 100%;
+    border: 1px solid rgb(59, 58, 58);
+    padding: 30px;
+    border-radius: 20px;
+    background: rgb(25, 25, 25);
+    margin-bottom: 10px;
+
+}
+.cont .second{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh !important;
+    width: 100vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+
+}
+.text{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.text ul li{
+    color: rgb(195, 194, 194);
+}
+
+.imageBx{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.header{
+    position: relative;
+    margin-top: 100px;   
+    
+}
+.header h1{
+    font-family: "PoppinsBolder";
+}
+
+.initialP{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(195, 194, 194);
+}
+.initialP p{
+    width: 100%;
+    font-size: 1em;
+    color: rgb(195, 194, 194);
+}
+.name{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(59, 58, 58);
+    margin-top: 100px;
+    border-top: 1px solid rgb(59, 58, 58);
+    padding-top: 30px;
+   
+}
+.name h1{
+    position: relative;
+    font-size: 1.2em;
+    /*padding-top: 50px;*/
+}
+.name span{
+    position: relative;
+    font-size: 2em;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.name .icon:hover{
+    position: relative;
+}
+.res{
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.result{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.result p{
+    color: rgb(195, 194, 194);
+}
+.result table , .resultData table{
+    position: relative;
+    margin: 0 auto;
+    background: rgb(48, 48, 48);
+    padding: 10px;
+    min-height: 200px;
+    border-radius: 20px;
+    margin-bottom: 40px;   
+}
+.resultData table{
+    margin-top: 50px;
+}
+.result table tr, .resultData table tr{
+    position: relative;
+    padding: 10px;
+    border: 1px solid turquoise;
+}
+.result table tr td, .resultData table tr td{
+    position: relative;
+    padding: 10px;
+    font-size: 0.8em;
+}
+.tableHeader{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.experiment2{
+    position: relative;
+}
+.name{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.experiment2 .name{
+   margin-top: 100px;
+   border-top: 1px solid rgb(59, 58, 58);
+   padding-top: 30px;
+}
+.experiment2 .name h1{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding: 0;
+}
+.name span{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    height: 100%;
+}
+
+
+
+
+/*---------------DATA MODELS--------------*/
+.dataModel{
+    padding-bottom: 100px;
+}
+.data{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    border: 1px solid rgb(59, 58, 58);
+    padding: 30px;
+    border-radius: 20px;
+    background: rgb(25, 25, 25);
+}
+.data ul,.accordeonBx ul {
+    padding-left: 40px;
+}
+.data ul li, .accordeonBx ul li{
+    color: rgb(195, 194, 194) !important;
+}
+.accordeonBx ul li span{
+    font-family: "PoppinsBold";
+    padding-right: 10px;
+}
+.conmorbilities{
+    position: relative;
+    display: flex;
+}
+.adapt{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+    
+}
+.prov{
+    position: relative;
+    color: rgb(195, 194, 194);
+}
+.prov div{
+    color: rgb(195, 194, 194);
+}
+.prov ul,.accordeonBx ul {
+    padding-left: 40px;
+}
+.provul li, .prov ul li{
+    color: rgb(195, 194, 194) !important;
+}
+.adapt .header{ 
+    color: rgb(195, 194, 194);
+    margin-top: 20px;
+}
+.resumen{
+    position: relative;
+    padding: 30px;
+    color: rgb(195, 194, 194);
+    border: 1px solid rgb(59, 58, 58);
+    background: rgb(25, 25, 25);
+    border-radius: 20px;
+}
+.resumen span{
+    /*color: rgb(157, 157, 231);*/
+}
+.resultData{
+    position: relative;
+    width: 100%;
+   
+}
+.tableHeader{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text1{
+    color: rgb(195, 194, 194);
+}
+.evaluation{
+    position: relative;
+    margin-top: 50px;
+}
+.evaluation div{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.header div{
+    color: rgb(195, 194, 194);
+}
