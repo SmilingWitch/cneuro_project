@@ -4,6 +4,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import useMediaQuery from '../components/functions/MediaQuery'; 
 import MenuFloatinButton from '@/components/MenuFloatingBtn';
+import Sidebar from '@/components/Sidebar';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,8 +23,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       {isMobile ? "" : <Navbar/>}
       <MenuFloatinButton/>
-
-       <div>
+      {/*<Sidebar/>*/}
+        <div>
           {children}
        </div>
 
